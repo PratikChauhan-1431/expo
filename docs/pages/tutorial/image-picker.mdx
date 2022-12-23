@@ -161,7 +161,7 @@ export default function App() {
 
     if (!result.canceled) {
       /* @info Pick the first uri from the assets array. Also, there is only one image selected at a time so you don't have to change this. */
-      setSelectedImage(result.assets[0].uri);
+      setSelectedImage(result.uri);
       /* @end */
     } else {
       alert('You did not select any image.');
